@@ -48,8 +48,7 @@
               "ViewState": "AgIAAFcAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-01T01:52:22.189Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -61,8 +60,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\baekjun_Real_project_numofsource\\baekjun\\18111.cpp",
               "ViewState": "AgIAABgAAAAAAAAAAAAAAD0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-01T04:57:51.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T04:57:51.897Z"
             }
           ]
         }
