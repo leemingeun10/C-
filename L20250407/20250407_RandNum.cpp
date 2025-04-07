@@ -99,111 +99,173 @@ int main()
 
 
 
-#include <iostream>
-#include <algorithm>
-#include<ctime>
+/// black jack game 
+// player VS Computer 
+// player draws when he want
+// Computer Draws when he lose and cardsum <=16 
+// A can be 1 and 11 
+// Deck is rand
 
-#define CARD_COUNT		52
+
+#include <iostream>
+#include <ctime>
+#include <string>
+#include <algorithm>
 
 using namespace std;
 
-//global variable
-int Deck[CARD_COUNT] = { 0, };
-
-void Initialize()
-{
-	srand((unsigned int)time(NULL));
-
-	for (int Index = 0; Index < CARD_COUNT; Index++)
-	{
-		Deck[Index] = Index + 1;
+string GetShape(int cardIndex) {
+	int shape = cardIndex / 13;
+	switch (shape) {
+	case 0: return "♠";
+	case 1: return "♣";
+	case 2: return "♥";
+	case 3: return "◆";
+	default: return "Unknown";
 	}
 }
 
-void Shuffle()
-{
-	int Temp = 0;
-	for (int Count = 0; Count < CARD_COUNT * 1000; Count++)
-	{
-		int First = rand() % CARD_COUNT;
-		int Second = rand() % CARD_COUNT;
-		Temp = Deck[First];
-		Deck[First] = Deck[Second];
-		Deck[Second] = Temp;
+string GetNumber(int cardIndex) {
+	int number = cardIndex % 13 + 1;
+	if (number == 11) return "J";
+	else if (number == 12) return "Q";
+	else if (number == 13) return "K";
+	else if (number == 1) return "A";
+	else return to_string(number);
+}
+
+void Shuffle(int* deck, int size) {
+	for (int i = size - 1; i > 0; i--) {
+		int j = rand() % (i + 1);
+		swap(deck[i], deck[j]);
 	}
 }
 
-string Shape(int Decknum)
-{
-	if (Decknum / 13 == 0)
-	{
-		return "Spade";
+void PrintCards(int* deck, int playerDrawCount, int computerDrawCount) {
+	cout << "[Computer]: ";
+	cout << GetShape(deck[0]) << " " << GetNumber(deck[0]) << ", ";
+	cout << GetShape(deck[1]) << " " << GetNumber(deck[1]);
+
+	for (int i = 0; i < computerDrawCount; i++) {
+		cout << ", " << GetShape(deck[4 + playerDrawCount + i]) << " " << GetNumber(deck[4 + playerDrawCount + i]);
 	}
-	else if (Decknum / 13 == 1)
-	{
-		return "Clover";
+	cout << endl;
+
+	cout << "====================" << endl;
+
+	cout << "[Player]: ";
+	cout << GetShape(deck[2]) << " " << GetNumber(deck[2]) << ", ";
+	cout << GetShape(deck[3]) << " " << GetNumber(deck[3]);
+
+	for (int i = 0; i < playerDrawCount; i++) {
+		cout << ", " << GetShape(deck[4 + i]) << " " << GetNumber(deck[4 + i]);
 	}
-	else if (Decknum / 13 == 2)
-	{
-		return "Heart";
-	}
-	else if (Decknum / 13 == 3)
-	{
-		return "Diamond";
-	}
-	return "Diamond";
+	cout << endl;
 }
 
-void Print()
-{
-	//Computer
-	
-	cout << Shape(Deck[0]) << Deck[0] % 13 +1 << ", ";
-	cout << Shape(Deck[1]) << Deck[1] % 13 + 1 << endl;
+int CalculateScore(int* deck, int startIndex, int count) {
+	int sum = 0;
+	int Aceindex = 0;
+	for (int i = 0; i < count; i++) {
+		int number = deck[startIndex + i] % 13 + 1;
+		if (number >= 11) sum += 10;
+		else if (number == 1)
+		{
+			Aceindex++;
+		}
+		else sum += number;
+	}
 
-	cout << "================" << endl;
-	//Player
-	cout << Shape(Deck[2]) << Deck[2] % 13 + 1 << ", ";
-	cout << Shape(Deck[3]) << Deck[3] % 13 + 1 << endl;
+	sum = sum + 11 * Aceindex;
 
+	while (sum > 21&& Aceindex>0)
+	{
+		Aceindex--;
+		sum -= 10;
+	}
+
+	return sum;
 }
 
-void PrintWinner()
-{
-	int PlayerNum, ComputerNum;
-	ComputerNum = (Deck[0] % 13 + 1) + (Deck[1] % 13 + 1);
-	PlayerNum = (Deck[2] % 13 + 1) + (Deck[3] % 13 + 1);
-	if (PlayerNum > 21 && ComputerNum <=21)
-	{
-		cout << "Player Bust Computer Win";
-	}
-	else if (ComputerNum > 21 && PlayerNum <= 21)
-	{
-		cout << "Computer Bust Player Win";
-	}
-	else if (ComputerNum > 21 && PlayerNum > 21)
-	{
-		cout << "Both Player Bust Draw";
-	}
-	else if (PlayerNum >= ComputerNum)
-	{
-		cout << "Player Win";
-	}
+bool AskMore() {
+	int choice;
+	cout << "Want more card? (Yes:1 / No:0): ";
+	cin >> choice;
+	return choice == 1;
+}
+
+void DeclareWinner(int playerScore, int computerScore) {
+	cout << "====================" << endl;
+	cout << "Final Score - Player: " << playerScore << ", Computer: " << computerScore << endl;
+
+	if (playerScore > 21 && computerScore > 21)
+		cout << "Both Busted! It's a Draw." << endl;
+	else if (playerScore > 21)
+		cout << "Player Busted! Computer Wins." << endl;
+	else if (computerScore > 21)
+		cout << "Computer Busted! Player Wins." << endl;
+	else if (playerScore > computerScore)
+		cout << "Player Wins!" << endl;
+	else if (playerScore < computerScore)
+		cout << "Computer Wins!" << endl;
 	else
-	{
-		cout << "Computer win";
-	}
+		cout << "It's a Draw!" << endl;
 }
 
-int main()
-{
-	Initialize();
-	Shuffle();
-	Print();
-	PrintWinner();
+void playing() {
+	srand(static_cast<unsigned int>(time(NULL)));
 
+	const int CARD_COUNT = 52;
+	int* deck = new int[CARD_COUNT];
+
+	for (int i = 0; i < CARD_COUNT; i++) {
+		deck[i] = i;
+	}
+
+	Shuffle(deck, CARD_COUNT);
+
+	int playerDrawCount = 0;
+	int computerDrawCount = 0;
+
+	// 시작 카드 번호
+
+	int playerStartIndex = 2;
+	int computerStartIndex = 0;
+	int extraCardStartIndex = 4;
+
+	PrintCards(deck, playerDrawCount, computerDrawCount);
+
+	int playerScore = CalculateScore(deck, playerStartIndex, 2);
+	while (playerScore <= 21 && AskMore()) {
+		playerDrawCount++;
+		playerScore = CalculateScore(deck, playerStartIndex, 2 + playerDrawCount);
+		PrintCards(deck, playerDrawCount, computerDrawCount);
+	}
+
+	int computerScore = CalculateScore(deck, computerStartIndex ,2);
+	if (playerScore <=  21&& playerScore > computerScore)
+	{
+		
+		while (computerScore <= 16) {
+			computerDrawCount++;
+			computerScore = CalculateScore(deck, computerStartIndex, 2);
+			computerScore += CalculateScore(deck, extraCardStartIndex + playerDrawCount, computerDrawCount);
+			PrintCards(deck, playerDrawCount, computerDrawCount);
+		}
+	}
+	DeclareWinner(playerScore, computerScore);
+
+	delete[] deck;
+}
+
+
+
+int main() {
+	playing();
 	return 0;
 }
+
+
 
 
 
