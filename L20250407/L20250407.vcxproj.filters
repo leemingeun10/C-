@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="20250407.cpp">
+    <ClCompile Include="20250407_RandNum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="5430.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
