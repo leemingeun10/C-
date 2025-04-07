@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="20250407_RandNum.cpp" />
+    <ClCompile Include="20250407_BlackjackGame.cpp" />
     <ClCompile Include="5430.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
