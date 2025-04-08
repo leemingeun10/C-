@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="L20250408.cpp">
+    <ClCompile Include="Lotto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="9655.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="20250408_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

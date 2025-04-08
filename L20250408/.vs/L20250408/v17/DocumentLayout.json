@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\C-\\L20250408\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4F8FB5C-F932-49CF-A4A5-B75167740B97}|L20250408.vcxproj|C:\\Users\\USER\\source\\C-\\L20250408\\L20250408.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D4F8FB5C-F932-49CF-A4A5-B75167740B97}|L20250408.vcxproj|solutionrelative:L20250408.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D4F8FB5C-F932-49CF-A4A5-B75167740B97}|L20250408.vcxproj|C:\\Users\\USER\\source\\C-\\L20250408\\9655_.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D4F8FB5C-F932-49CF-A4A5-B75167740B97}|L20250408.vcxproj|solutionrelative:9655_.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4F8FB5C-F932-49CF-A4A5-B75167740B97}|L20250408.vcxproj|C:\\Users\\USER\\source\\C-\\L20250408\\20250408_test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D4F8FB5C-F932-49CF-A4A5-B75167740B97}|L20250408.vcxproj|solutionrelative:20250408_test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4F8FB5C-F932-49CF-A4A5-B75167740B97}|L20250408.vcxproj|C:\\Users\\USER\\source\\C-\\L20250408\\Lotto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D4F8FB5C-F932-49CF-A4A5-B75167740B97}|L20250408.vcxproj|solutionrelative:Lotto.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "L20250408.cpp",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250408\\L20250408.cpp",
-              "RelativeDocumentMoniker": "L20250408.cpp",
-              "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250408\\L20250408.cpp",
-              "RelativeToolTip": "L20250408.cpp",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFkAAAACAAAAAAAAAA==",
+              "Title": "9655_.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250408\\9655_.cpp",
+              "RelativeDocumentMoniker": "9655_.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250408\\9655_.cpp",
+              "RelativeToolTip": "9655_.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-08T06:35:02.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250408_test.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250408\\20250408_test.cpp",
+              "RelativeDocumentMoniker": "20250408_test.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250408\\20250408_test.cpp",
+              "RelativeToolTip": "20250408_test.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAASwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-08T05:26:36.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lotto.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250408\\Lotto.cpp",
+              "RelativeDocumentMoniker": "Lotto.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250408\\Lotto.cpp",
+              "RelativeToolTip": "Lotto.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-08T00:03:12.343Z",
               "EditorCaption": ""

@@ -1,2 +1,6 @@
-﻿  L20250408.cpp
-  L20250408.vcxproj -> C:\Users\USER\source\C-\L20250408\x64\Debug\L20250408.exe
+﻿  20250408_test.cpp
+  9655_.cpp
+  Generating Code...
+  LINK : C:\Users\USER\source\C-\L20250408\x64\Debug\L20250408.exe not found or not built by the last incremental link; performing full link
+9655_.obj : error LNK2005: main already defined in 20250408_test.obj
+C:\Users\USER\source\C-\L20250408\x64\Debug\L20250408.exe : fatal error LNK1169: one or more multiply defined symbols found
