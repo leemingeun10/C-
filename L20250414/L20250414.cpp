@@ -21,8 +21,9 @@ void gotoxy(int x, int y)
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), Cur);
 }
 
-void Render(PlayerState *ps,char (*arr)[SIZEOFMAP])
+void Render(PlayerState *ps,char (*arr)[SIZEOFMAP], bool *IsRunning)
 {
+    
     system("cls");
 
 
@@ -32,11 +33,17 @@ void Render(PlayerState *ps,char (*arr)[SIZEOFMAP])
         {
             cout << arr[i][j];
         }
+        
         cout << endl;
     }
 
     gotoxy(ps->xpos, ps->ypos);
     cout << ps->Playerchar;
+
+    if (!(*IsRunning))
+    {
+        cout << endl <<"You Won";
+    }
 }
 
 void Input(PlayerState * NewPlayer)
@@ -45,45 +52,44 @@ void Input(PlayerState * NewPlayer)
 }
 
 
-void Tick(PlayerState* NewPlayer, char arr[][SIZEOFMAP])
+void Tick(PlayerState* NewPlayer, char arr[][SIZEOFMAP],bool *ISRunning)
 {
     switch (NewPlayer->GETNum)
     {
     case 72:
         NewPlayer->ypos -= 1;
-        break;
-    case 75:
-        NewPlayer->xpos -= 1;
-        break;
-    case 77:
-        NewPlayer->xpos += 1;
-        break;
-    case 80:
-        NewPlayer->ypos += 1;
-        break;
-    }
-
-    if (arr[NewPlayer->xpos][NewPlayer->ypos] == '*')
-    {
-        if (NewPlayer->GETNum == 72)
+        if (arr[NewPlayer->xpos][NewPlayer->ypos] == '*')
         {
             NewPlayer->ypos += 1;
         }
-        else if (NewPlayer->GETNum == 75)
+        break;
+    case 75:
+        NewPlayer->xpos -= 1;
+        if (arr[NewPlayer->xpos][NewPlayer->ypos] == '*')
         {
             NewPlayer->xpos += 1;
         }
-        else if (NewPlayer->GETNum == 77)
+        break;
+    case 77:
+        NewPlayer->xpos += 1;
+        if (arr[NewPlayer->xpos][NewPlayer->ypos] == '*')
         {
             NewPlayer->xpos -= 1;
         }
-        else if (NewPlayer->GETNum == 80)
+        break;
+    case 80:
+        NewPlayer->ypos += 1;
+        if (arr[NewPlayer->xpos][NewPlayer->ypos] == '*')
         {
             NewPlayer->ypos -= 1;
         }
-
+        break;
     }
 
+    if (arr[NewPlayer->xpos][NewPlayer->ypos] == 'G')
+    {
+        *ISRunning = FALSE;
+    }
 
 }
 
@@ -102,6 +108,10 @@ void ClearMap(char arry[][SIZEOFMAP])
             {
                 arry[i][j] = '*';
             }
+            else if(i ==8 && j == 8)
+            {
+                arry[i][j] = 'G';
+            }
             else
             {
                 arry[i][j] = ' ';
@@ -117,23 +127,19 @@ int main()
 
 
     PlayerState * NewPlayer = new PlayerState;
-
     NewPlayer->xpos = 5;
     NewPlayer->ypos = 5;
     NewPlayer->Playerchar = 'k';
-   
-    
-
 
     bool IsRunning = true;
 
-    Render(NewPlayer, arry);
+    Render(NewPlayer, arry, &IsRunning);
 
     while (IsRunning)
     {
         Input(NewPlayer);
-        Tick( NewPlayer, arry);
-        Render(NewPlayer,arry);
+        Tick( NewPlayer, arry,&IsRunning);
+        Render(NewPlayer,arry, &IsRunning);
     }
 
 

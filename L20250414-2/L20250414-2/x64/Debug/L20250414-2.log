@@ -1,0 +1,13 @@
+﻿  11062.cpp
+  9658.cpp
+  9660.cpp
+  Floor.cpp
+  Goal.cpp
+  L20250414.cpp
+C:\Users\USER\source\C-\L20250414-2\L20250414.cpp(120,9): warning C4101: 'Aplayer': unreferenced local variable
+  Monster.cpp
+  Player.cpp
+  UWorld.cpp
+  Wall.cpp
+  Generating Code...
+  L20250414-2.vcxproj -> C:\Users\USER\source\C-\L20250414-2\x64\Debug\L20250414-2.exe
