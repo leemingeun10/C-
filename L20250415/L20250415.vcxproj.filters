@@ -33,6 +33,9 @@
     <ClInclude Include="Boar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="UWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="World.cpp">
@@ -51,6 +54,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Boar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UWorld.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

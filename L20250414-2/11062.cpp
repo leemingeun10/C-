@@ -21,15 +21,14 @@ using namespace std;
 int CardGame_BigNum(deque<int> CardDeck, int SizeofDeck)
 {
 	int turn = 1;
-	
-	
-			int addnum;
+	int addnum;
 			if (1 == SizeofDeck )
 			{
 				addnum = CardDeck.front();
 				CardDeck.pop_front();
+				return addnum;
 			}
-			else
+			else 
 			{
 				int Front, Back;
 
@@ -39,20 +38,31 @@ int CardGame_BigNum(deque<int> CardDeck, int SizeofDeck)
 				{
 					addnum = Front;
 					CardDeck.pop_front();
+					addnum += CardGame_BigNum(CardDeck, SizeofDeck - 1);
+					return addnum;
 				}
 				else
 				{
 					addnum = Back;
 					CardDeck.pop_back();
+					addnum += CardGame_BigNum(CardDeck, SizeofDeck - 1);
+					return addnum;
 				}
 			}
-	
-			return addnum;
-
 }
 
+/* 배열안에 있는 모든걸 다꺼내주세요
+for (auto data : IntArray)
+{
+		cout <<data<<endl;
+}
+전체순회 
 
+vector.erase 가능 
 
+vector<> a ;
+a.erase(find(a.begin(),a.end(),3)); 3이 존재하는 곳의 iterater를 반환해서 사용가능 3을 찾아서 지워줌 
+*/
 
 int main()
 {

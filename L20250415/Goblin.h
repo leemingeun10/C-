@@ -1,10 +1,10 @@
 #pragma once
 #include "Monster.h"
-class Goblin : private Monster
+class Goblin : public Monster
 {
 	
 public:
-	void run();
+	void Run();
 
 
 };

@@ -1,5 +1,5 @@
 #include "Goblin.h"
 
-void Goblin::run()
+void Goblin::Run()
 {
 }

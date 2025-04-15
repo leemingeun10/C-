@@ -10,51 +10,51 @@ void Player::Attatck()
 
 
 
-int Player::getGold()
+int Player::GetGold()
 {
 	return 0;
 }
 
-void Player::setGOld()
+void Player::SetGOld()
 {
 }
 
-float Player::getXpos()
-{
-	return 0.0f;
-}
-
-float Player::getYpos()
+float Player::GetXpos()
 {
 	return 0.0f;
 }
 
-float Player::getHP()
+float Player::GetYpos()
 {
 	return 0.0f;
 }
 
-float Player::getMP()
+float Player::GetHP()
 {
 	return 0.0f;
 }
 
-float Player::setXpos()
+float Player::GetMP()
 {
 	return 0.0f;
 }
 
-float Player::setYpos()
+float Player::SetXpos()
 {
 	return 0.0f;
 }
 
-float Player::setHP()
+float Player::SetYpos()
 {
 	return 0.0f;
 }
 
-float Player::setMP()
+float Player::SetHP()
+{
+	return 0.0f;
+}
+
+float Player::SetMP()
 {
 	return 0.0f;
 }

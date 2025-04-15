@@ -8,22 +8,22 @@ void Monster::Move()
 {
 }
 
-float Monster::getXpos()
+float Monster::GetXpos()
 {
 	return 0.0f;
 }
 
-float Monster::getYpos()
+float Monster::GetYpos()
 {
 	return 0.0f;
 }
 
-float Monster::setXpos()
+float Monster::SetXpos()
 {
 	return 0.0f;
 }
 
-float Monster::setYpos()
+float Monster::SetYpos()
 {
 	return 0.0f;
 }

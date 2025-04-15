@@ -7,9 +7,9 @@ public:
 	void Attack();
 	void Move();
 
-	float getXpos();
-	float getYpos();
-	float setXpos();
-	float setYpos();
+	float GetXpos();
+	float GetYpos();
+	float SetXpos();
+	float SetYpos();
 };
 

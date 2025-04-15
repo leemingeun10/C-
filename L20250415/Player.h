@@ -12,16 +12,16 @@ public:
 	
 
 
-	int getGold();
-	void setGOld();
-	float getXpos();
-	float getYpos();
-	float getHP();
-	float getMP();
-	float setXpos();
-	float setYpos();
-	float setHP();
-	float setMP();
+	int GetGold();
+	void SetGOld();
+	float GetXpos();
+	float GetYpos();
+	float GetHP();
+	float GetMP();
+	float SetXpos();
+	float SetYpos();
+	float SetHP();
+	float SetMP();
 
 
 

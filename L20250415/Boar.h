@@ -1,6 +1,6 @@
 #pragma once
 #include "Monster.h"
-class Boar : private Monster
+class Boar : public Monster
 {
 public:
 	void Charge();
