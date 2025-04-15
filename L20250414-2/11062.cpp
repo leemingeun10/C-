@@ -1,63 +1,81 @@
-//#include<deque>
-//#include<iostream>
+#include<deque>
+#include<iostream>
+
+//근우와 명우는 재미있는 카드 게임을 하고 있다.N개의 카드가 일렬로 놓여 있다.각 카드에는 점수가 적혀있다.근우부터 시작하여 번갈아가면서 턴이 진행되는데 한 턴에는 가장 왼쪽에 있는 카드나 가장 오른쪽에 있는 카드를 가져갈 수 있다.카드가 더 이상 남아있지 않을 때까지 턴은 반복된다.게임의 점수는 자신이 가져간 카드에 적힌 수의 합이다.
 //
-////근우와 명우는 재미있는 카드 게임을 하고 있다.N개의 카드가 일렬로 놓여 있다.각 카드에는 점수가 적혀있다.근우부터 시작하여 번갈아가면서 턴이 진행되는데 한 턴에는 가장 왼쪽에 있는 카드나 가장 오른쪽에 있는 카드를 가져갈 수 있다.카드가 더 이상 남아있지 않을 때까지 턴은 반복된다.게임의 점수는 자신이 가져간 카드에 적힌 수의 합이다.
-////
-////근우와 명우는 서로 자신의 점수를 가장 높이기 위해 최선의 전략으로 게임에 임한다.놓여있는 카드의 개수 N과 카드가 놓여있는 상태가 주어졌을 때 근우가 얻는 점수를 구하는 프로그램을 작성하시오.
-////
-////예를 들어 카드가[4, 3, 1, 2]로 놓여있다고 하자.근우는 처음에 4가 적힌 카드를 가져가고, 명우는 3이 적힌 카드를 가져간다.그리고 근우는 2가 적힌 카드를 가져가고, 명우는 마지막으로 1이 적힌 카드를 가져간다.이때 근우와 명우는 최선의 전략으로 임했으며, 근우가 얻는 점수는 6이다.
-////
-////입력
-////입력의 첫 줄에는 테스트케이스의 수 T(1 ≤ T ≤ 50)가 주어진다.
-////
-////각 테스트케이스 마다 첫 줄에는 카드의 개수 N(1 ≤ N ≤ 1, 000)이 주어진다.두 번째 줄에는 N개의 자연수가 공백으로 구분되어 주어지는데, i번째로 주어지는 수는 왼쪽에서 i번째에 놓인 카드에 적힌 수를 의미한다.카드에 적혀있는 수는 1이상 10, 000이하다.
-////
-////출력
-////각 테스트케이스마다 근우와 명우가 최선의 전략으로 임할 때 근우가 얻게되는 점수를 줄로 구분하여 출력한다.
-//using namespace std;
+//근우와 명우는 서로 자신의 점수를 가장 높이기 위해 최선의 전략으로 게임에 임한다.놓여있는 카드의 개수 N과 카드가 놓여있는 상태가 주어졌을 때 근우가 얻는 점수를 구하는 프로그램을 작성하시오.
 //
+//예를 들어 카드가[4, 3, 1, 2]로 놓여있다고 하자.근우는 처음에 4가 적힌 카드를 가져가고, 명우는 3이 적힌 카드를 가져간다.그리고 근우는 2가 적힌 카드를 가져가고, 명우는 마지막으로 1이 적힌 카드를 가져간다.이때 근우와 명우는 최선의 전략으로 임했으며, 근우가 얻는 점수는 6이다.
 //
+//입력
+//입력의 첫 줄에는 테스트케이스의 수 T(1 ≤ T ≤ 50)가 주어진다.
 //
-//int CardGame(deque<int> CardDeck, int SizeofDeck)
-//{
-//	int turn = 1;
-//	for (int i = 0; i < SizeofDeck; i++)
-//	{
-//		if (i == SizeofDeck - 1)
-//		{
+//각 테스트케이스 마다 첫 줄에는 카드의 개수 N(1 ≤ N ≤ 1, 000)이 주어진다.두 번째 줄에는 N개의 자연수가 공백으로 구분되어 주어지는데, i번째로 주어지는 수는 왼쪽에서 i번째에 놓인 카드에 적힌 수를 의미한다.카드에 적혀있는 수는 1이상 10, 000이하다.
 //
-//		}
-//		int Front, Back;
-//
-//		Front = CardDeck
-//
-//
-//	}
-//}
-//
-//
-//
-//
-//int main()
-//{
-//	int TestCase;
-//	int dequeNum;
-//
-//	cin >> TestCase;
-//	for (int i = 0; i < TestCase; i++)
-//	{
-//		cin >> dequeNum;
-//		deque<int> CardDeck;
-//		for (int j = 0; j < dequeNum; j++)
-//		{
-//			int voidnum;
-//			cin >> voidnum;
-//			CardDeck.push_back(voidnum);
-//		}
-//
-//	}
-//
-//
-//
-//	return 0;
-//}
+//출력
+//각 테스트케이스마다 근우와 명우가 최선의 전략으로 임할 때 근우가 얻게되는 점수를 줄로 구분하여 출력한다.
+using namespace std;
+
+
+
+int CardGame_BigNum(deque<int> CardDeck, int SizeofDeck)
+{
+	int turn = 1;
+	
+	
+			int addnum;
+			if (1 == SizeofDeck )
+			{
+				addnum = CardDeck.front();
+				CardDeck.pop_front();
+			}
+			else
+			{
+				int Front, Back;
+
+				Front = CardDeck.front();
+				Back = CardDeck.back();
+				if (Front > Back)
+				{
+					addnum = Front;
+					CardDeck.pop_front();
+				}
+				else
+				{
+					addnum = Back;
+					CardDeck.pop_back();
+				}
+			}
+	
+			return addnum;
+
+}
+
+
+
+
+int main()
+{
+	int TestCase;
+	int dequeNum;
+
+	cin >> TestCase;
+	for (int i = 0; i < TestCase; i++)
+	{
+		cin >> dequeNum;
+		deque<int> CardDeck;
+		for (int j = 0; j < dequeNum; j++)
+		{
+			int voidnum;
+			cin >> voidnum;
+			CardDeck.push_back(voidnum);
+		}
+
+		cout << CardGame(CardDeck, dequeNum) << endl;
+
+	}
+
+
+
+	return 0;
+}
