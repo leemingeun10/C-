@@ -7,7 +7,7 @@
 #include<ctime>
 
 #define MAXMONSTER 10
-
+#define monstersNum 3
 
 void UWorld::Initialize()
 {
@@ -16,19 +16,21 @@ void UWorld::Initialize()
 	vector<int> makerand;
 
 	// makerand init
-	makerand.push_back(0);
-	makerand.push_back(0);
-	makerand.push_back(0);
+	for(int i = 0 ; i< monstersNum ; i++)
+	{ 
+		makerand.push_back(0);
+	}
+	
 
 
 	
 	for (int i = 0; i < MAXMONSTER; i++)
 	{
-		makerand[rand() % 3]++;
+		makerand[rand() % monstersNum]++;
 	}
 
 	// init monsters
-	for (int i = 0; i < 3; i++)
+	for (int i = 0; i < monstersNum; i++)
 	{
 		for (int j = 0; j < makerand[i]; j++)
 		{
@@ -49,8 +51,5 @@ void UWorld::Initialize()
 
 	//init player
 	Players.push_back(new Player);
-
-
-
 
 }
