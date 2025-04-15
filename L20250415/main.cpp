@@ -25,14 +25,15 @@ a.erase(find(a.begin(),a.end(),3)); 3이 존재하는 곳의 iterater를 반환해서 사용가
 int main()
 {
 	srand(static_cast<unsigned int>(time(0)));
-	UWorld NewWorld;
-	NewWorld.Initialize();
+	UWorld *NewWorld= new UWorld;
 
-	cout << "현재 Player의 수 :" << NewWorld.Players.size() << endl;
-	cout << "현재 Slime의 수 :" << NewWorld.Slimes.size() << endl;
-	cout << "현재 Boar의 수 :" << NewWorld.Boars.size() << endl;
-	cout << "현재 Goblin의 수 :" << NewWorld.Goblins.size() << endl;
+	cout << "현재 Player의 수 :" << NewWorld->Players.size() << endl;
+	cout << "현재 Slime의 수 :" << NewWorld->Slimes.size() << endl;
+	cout << "현재 Boar의 수 :" << NewWorld->Boars.size() << endl;
+	cout << "현재 Goblin의 수 :" << NewWorld->Goblins.size() << endl;
 
+	delete NewWorld;
+	NewWorld = nullptr;
 
 	return 0;
 }

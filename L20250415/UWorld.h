@@ -11,12 +11,17 @@ class UWorld
 {
 public:
 
+	UWorld();
+	~UWorld();
+
 	vector<Player*> Players;
 	vector<Slime*> Slimes;
 	vector<Goblin*> Goblins;
 	vector<Boar*> Boars;
 
 	void Initialize();
+	void Terminate();
 
+	
 };
 
