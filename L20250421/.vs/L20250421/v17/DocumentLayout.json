@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\C-\\L20250421\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|C:\\Users\\USER\\source\\C-\\L20250421\\Programers_Hash3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|solutionrelative:Programers_Hash3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|C:\\Users\\USER\\source\\C-\\L20250421\\L20250421.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|solutionrelative:L20250421.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|C:\\Users\\USER\\source\\C-\\L20250421\\AMonster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|solutionrelative:AMonster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|C:\\Users\\USER\\source\\C-\\L20250421\\AGoblin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|solutionrelative:AGoblin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|C:\\Users\\USER\\source\\C-\\L20250421\\Programers_Hash.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|solutionrelative:Programers_Hash.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|C:\\Users\\USER\\source\\C-\\L20250421\\Programers_Hash3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|solutionrelative:Programers_Hash3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|C:\\Users\\USER\\source\\C-\\L20250421\\Programers_Hash2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|solutionrelative:Programers_Hash2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|C:\\Users\\USER\\source\\C-\\L20250421\\AMonster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|solutionrelative:AMonster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|C:\\Users\\USER\\source\\C-\\L20250421\\AGoblin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|solutionrelative:AGoblin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|C:\\Users\\USER\\source\\C-\\L20250421\\AMonster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|solutionrelative:AMonster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|C:\\Users\\USER\\source\\C-\\L20250421\\ASlime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -41,6 +29,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|C:\\Users\\USER\\source\\C-\\L20250421\\ASlime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|solutionrelative:ASlime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|C:\\Users\\USER\\source\\C-\\L20250421\\Programers_Hash2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|solutionrelative:Programers_Hash2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|C:\\Users\\USER\\source\\C-\\L20250421\\Programers_Hash.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|solutionrelative:Programers_Hash.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|C:\\Users\\USER\\source\\C-\\L20250421\\AMonster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B38496F-4476-4572-AC9B-7230BE65B491}|L20250421.vcxproj|solutionrelative:AMonster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,37 +50,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Programers_Hash3.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250421\\Programers_Hash3.cpp",
               "RelativeDocumentMoniker": "Programers_Hash3.cpp",
               "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250421\\Programers_Hash3.cpp",
               "RelativeToolTip": "Programers_Hash3.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-21T06:05:58.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Programers_Hash2.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250421\\Programers_Hash2.cpp",
               "RelativeDocumentMoniker": "Programers_Hash2.cpp",
               "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250421\\Programers_Hash2.cpp",
               "RelativeToolTip": "Programers_Hash2.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-21T05:08:08.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
+              "Title": "Programers_Hash.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250421\\Programers_Hash.cpp",
+              "RelativeDocumentMoniker": "Programers_Hash.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250421\\Programers_Hash.cpp",
+              "RelativeToolTip": "Programers_Hash.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-21T01:13:24.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ASlime.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250421\\Aslime.cpp",
               "RelativeDocumentMoniker": "Aslime.cpp",
@@ -93,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "ASlime.h",
               "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250421\\Aslime.h",
               "RelativeDocumentMoniker": "Aslime.h",
@@ -106,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "AMonster.h",
               "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250421\\AMonster.h",
               "RelativeDocumentMoniker": "AMonster.h",
@@ -114,12 +127,11 @@
               "RelativeToolTip": "AMonster.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-21T04:23:12.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T04:23:12.116Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AGoblin.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250421\\AGoblin.cpp",
               "RelativeDocumentMoniker": "AGoblin.cpp",
@@ -132,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "AGoblin.h",
               "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250421\\AGoblin.h",
               "RelativeDocumentMoniker": "AGoblin.h",
@@ -145,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "AMonster.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250421\\AMonster.cpp",
               "RelativeDocumentMoniker": "AMonster.cpp",
@@ -158,26 +170,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Programers_Hash.cpp",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250421\\Programers_Hash.cpp",
-              "RelativeDocumentMoniker": "Programers_Hash.cpp",
-              "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250421\\Programers_Hash.cpp",
-              "RelativeToolTip": "Programers_Hash.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-21T01:13:24.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "L20250421.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250421\\L20250421.cpp",
               "RelativeDocumentMoniker": "L20250421.cpp",
               "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250421\\L20250421.cpp",
               "RelativeToolTip": "L20250421.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-21T00:01:54.046Z",
               "EditorCaption": ""

@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\C-\\L20250414\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5135E7C9-F174-47B0-B08E-DE134F8FEB89}|L20250414.vcxproj|C:\\Users\\USER\\source\\C-\\L20250414\\L20250414.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{5135E7C9-F174-47B0-B08E-DE134F8FEB89}|L20250414.vcxproj|solutionrelative:L20250414.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\C-\\L20250408\\20250408_test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\source\\C-\\L20250408\\20250408_test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5135E7C9-F174-47B0-B08E-DE134F8FEB89}|L20250414.vcxproj|C:\\Users\\USER\\source\\C-\\L20250414\\L20250414.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5135E7C9-F174-47B0-B08E-DE134F8FEB89}|L20250414.vcxproj|solutionrelative:L20250414.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,29 +17,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "20250408_test.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250408\\20250408_test.cpp",
               "RelativeDocumentMoniker": "..\\L20250408\\20250408_test.cpp",
               "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250408\\20250408_test.cpp",
               "RelativeToolTip": "..\\L20250408\\20250408_test.cpp",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-14T00:14:04.465Z"
+              "WhenOpened": "2025-04-14T00:14:04.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "L20250414.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250414\\L20250414.cpp",
               "RelativeDocumentMoniker": "L20250414.cpp",
               "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250414\\L20250414.cpp",
               "RelativeToolTip": "L20250414.cpp",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIkAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAI0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-14T00:03:26.669Z",
               "EditorCaption": ""
