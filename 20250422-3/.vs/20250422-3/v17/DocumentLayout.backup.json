@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\C-\\20250422-3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|C:\\Users\\USER\\source\\C-\\20250422-3\\World.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|solutionrelative:World.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|C:\\Users\\USER\\source\\C-\\20250422-3\\World.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|solutionrelative:World.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|C:\\Users\\USER\\source\\C-\\20250422-3\\Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|solutionrelative:Actor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|C:\\Users\\USER\\source\\C-\\20250422-3\\Actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|solutionrelative:Actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|C:\\Users\\USER\\source\\C-\\20250422-3\\Vector2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|solutionrelative:Vector2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|C:\\Users\\USER\\source\\C-\\20250422-3\\Vector2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|solutionrelative:Vector2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|C:\\Users\\USER\\source\\C-\\20250422-3\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|solutionrelative:Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|C:\\Users\\USER\\source\\C-\\20250422-3\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|solutionrelative:Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|C:\\Users\\USER\\source\\C-\\20250422-3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|C:\\Users\\USER\\source\\C-\\20250422-3\\UInput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|solutionrelative:UInput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|C:\\Users\\USER\\source\\C-\\20250422-3\\UInput.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FDF8E3E5-5E49-43F3-81F0-AD1115838074}|20250422-3.vcxproj|solutionrelative:UInput.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Vector2D.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\20250422-3\\Vector2D.cpp",
+              "RelativeDocumentMoniker": "Vector2D.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\20250422-3\\Vector2D.cpp",
+              "RelativeToolTip": "Vector2D.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-22T06:54:15.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Vector2D.h",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\20250422-3\\Vector2D.h",
+              "RelativeDocumentMoniker": "Vector2D.h",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\20250422-3\\Vector2D.h",
+              "RelativeToolTip": "Vector2D.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-22T06:53:12.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Actor.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\20250422-3\\Actor.cpp",
+              "RelativeDocumentMoniker": "Actor.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\20250422-3\\Actor.cpp",
+              "RelativeToolTip": "Actor.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-22T06:52:07.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Actor.h",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\20250422-3\\Actor.h",
+              "RelativeDocumentMoniker": "Actor.h",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\20250422-3\\Actor.h",
+              "RelativeToolTip": "Actor.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-22T06:51:43.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UInput.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\20250422-3\\UInput.cpp",
+              "RelativeDocumentMoniker": "UInput.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\20250422-3\\UInput.cpp",
+              "RelativeToolTip": "UInput.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-22T06:42:50.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UInput.h",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\20250422-3\\UInput.h",
+              "RelativeDocumentMoniker": "UInput.h",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\20250422-3\\UInput.h",
+              "RelativeToolTip": "UInput.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-22T06:42:21.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "World.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\20250422-3\\World.cpp",
+              "RelativeDocumentMoniker": "World.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\20250422-3\\World.cpp",
+              "RelativeToolTip": "World.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-22T06:34:29.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "World.h",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\20250422-3\\World.h",
+              "RelativeDocumentMoniker": "World.h",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\20250422-3\\World.h",
+              "RelativeToolTip": "World.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-22T06:34:06.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Engine.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\20250422-3\\Engine.cpp",
+              "RelativeDocumentMoniker": "Engine.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\20250422-3\\Engine.cpp",
+              "RelativeToolTip": "Engine.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-22T06:27:00.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Engine.h",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\20250422-3\\Engine.h",
+              "RelativeDocumentMoniker": "Engine.h",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\20250422-3\\Engine.h",
+              "RelativeToolTip": "Engine.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-22T06:26:35.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\20250422-3\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\20250422-3\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-22T06:26:02.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

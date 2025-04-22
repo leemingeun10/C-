@@ -53,12 +53,11 @@
               "Title": "Player.h",
               "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250422\\Player.h",
               "RelativeDocumentMoniker": "Player.h",
-              "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250422\\Player.h*",
-              "RelativeToolTip": "Player.h*",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250422\\Player.h",
+              "RelativeToolTip": "Player.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-22T00:22:47.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T00:22:47.967Z"
             },
             {
               "$type": "Document",
@@ -66,12 +65,11 @@
               "Title": "Striker.h",
               "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250422\\Striker.h",
               "RelativeDocumentMoniker": "Striker.h",
-              "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250422\\Striker.h*",
-              "RelativeToolTip": "Striker.h*",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250422\\Striker.h",
+              "RelativeToolTip": "Striker.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-22T00:21:03.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T00:21:03.719Z"
             },
             {
               "$type": "Document",
@@ -83,8 +81,7 @@
               "RelativeToolTip": "Striker.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-22T00:22:05.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T00:22:05.012Z"
             },
             {
               "$type": "Document",
@@ -96,8 +93,7 @@
               "RelativeToolTip": "Skill.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-22T00:29:38.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T00:29:38.819Z"
             },
             {
               "$type": "Document",
@@ -109,8 +105,7 @@
               "RelativeToolTip": "Player.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-22T00:24:27.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T00:24:27.306Z"
             },
             {
               "$type": "Document",
@@ -122,8 +117,7 @@
               "RelativeToolTip": "Stat.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-04-22T00:23:52.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T00:23:52.944Z"
             },
             {
               "$type": "Document",
@@ -131,9 +125,9 @@
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250422\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250422\\main.cpp*",
-              "RelativeToolTip": "main.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250422\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-22T00:18:34.487Z",
               "EditorCaption": ""
@@ -144,12 +138,11 @@
               "Title": "Programers_Hash4.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\L20250422\\Programers_Hash4.cpp",
               "RelativeDocumentMoniker": "Programers_Hash4.cpp",
-              "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250422\\Programers_Hash4.cpp*",
-              "RelativeToolTip": "Programers_Hash4.cpp*",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\L20250422\\Programers_Hash4.cpp",
+              "RelativeToolTip": "Programers_Hash4.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-22T00:04:07.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T00:04:07.398Z"
             },
             {
               "$type": "Document",
@@ -161,8 +154,7 @@
               "RelativeToolTip": "..\\L20250421\\Programers_Hash3.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-22T00:02:50.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T00:02:50.177Z"
             }
           ]
         }

@@ -130,6 +130,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Programers_Hash4.cpp" />
+    <ClCompile Include="Programers_Hash5.cpp" />
     <ClCompile Include="Skill.cpp" />
     <ClCompile Include="Stat.cpp" />
     <ClCompile Include="Striker.cpp" />
