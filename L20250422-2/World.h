@@ -12,6 +12,8 @@ public:
 	void Tick();
 	void Render();
 
+	
+
 	void SpawnActor(AActor* NewActor);
 	void DestoryActor(AActor* DestroyedActor);
 

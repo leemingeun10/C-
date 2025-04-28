@@ -11,7 +11,6 @@ using namespace std;
 vector<int> solution(vector<string> genres, vector<int> plays) {
     map<string, int> Countgenres;
     vector<int> answer;
-    int arr[2] = { -1,-1 };
     //어느 장르가 잴 큰지 알아보기위해 
     for (int i = 0; i < genres.size(); i++)
     {
@@ -46,14 +45,20 @@ vector<int> solution(vector<string> genres, vector<int> plays) {
             }
         }
         // Songs 벡터를 sorting 조건에 의해서 
-        sort(Songs.front(), Songs.back(), [](songs& a, songs& b) {
+        sort(Songs.begin(), Songs.end(), [](songs& a, songs& b) {
             if (a.play == b.play)
                 return a.index < b.index;
             return a.play > b.play;
             });
-       
-        answer.push_back(Songs[0].index);
-        answer.push_back(Songs[1].index);
+        if (Songs.size() >= 2)
+        {
+            answer.push_back(Songs[0].index);
+            answer.push_back(Songs[1].index);
+        }
+        else if (Songs.size() == 1)
+        {
+            answer.push_back(Songs[0].index);
+        }
         Songs.clear();
 
 
