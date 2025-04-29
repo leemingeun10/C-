@@ -1,5 +1,8 @@
 #pragma once
 #include <string>
+#include "SDL3/SDL.h"
+
+#pragma comment(lib, "SDL3")
 
 class UWorld;
 class UInput;
@@ -30,6 +33,9 @@ public:
 	void Run();
 	void Terminate();
 
+	SDL_Window* Window;
+	SDL_Event Event;
+
 private:
 	void Input();
 	void Tick();
@@ -37,6 +43,7 @@ private:
 
 	UWorld* World;
 	UInput* InputDevice;
+	bool	IsRunning;
 
 };
 

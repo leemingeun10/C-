@@ -1,7 +1,10 @@
 #include "Engine.h"
 #include "World.h"
 #include "Input.h"
-#include"Renderer.h"
+#include "Renderer.h"
+
+
+
 
 UEngine* UEngine::Instance = nullptr;
 
@@ -19,17 +22,29 @@ UEngine::~UEngine()
 
 void UEngine::Initiailze(std::string filename)
 {
-	URenderer::GetInstance();
+	IsRunning = true;
+	SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO);
+
+	Window = SDL_CreateWindow("Engine", 800, 600, SDL_WINDOW_OPENGL);
+
 	InputDevice = new UInput();
 	World = new UWorld();
 	World->Load(filename);
-
+	URenderer::GetInstance();
 }
 
 void UEngine::Run()
 {
-	while (true)
+	while (IsRunning)
 	{
+		SDL_PollEvent(&Event);
+		switch (Event.type)
+		{
+		case SDL_EVENT_QUIT:
+			IsRunning = false;
+			break;
+		}
+
 		Input();
 		Tick();
 		Render();
@@ -49,6 +64,9 @@ void UEngine::Terminate()
 		delete InputDevice;
 		InputDevice = nullptr;
 	}
+
+	SDL_DestroyWindow(Window);
+	SDL_Quit();
 }
 
 void UEngine::Input()

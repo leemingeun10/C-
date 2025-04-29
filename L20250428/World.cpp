@@ -1,6 +1,6 @@
 #include <iostream>
 #include <fstream>
-#include <algorithm>  
+#include <algorithm>
 
 #include "World.h"
 #include "Actor.h"
@@ -10,22 +10,10 @@
 #include "Floor.h"
 #include "Goal.h"
 #include "Monster.h"
-#include"Renderer.h"
+#include "Renderer.h"
 
 UWorld::UWorld()
 {
-	//SpawnActor(new APlayer());
-	//SpawnActor(new AWall());
-
-	//AWall* NewWall = new AWall();
-	//NewWall->Location.X = 1;
-	//NewWall->Location.Y = 0;
-	//SpawnActor(NewWall);
-
-	//NewWall = new AWall();
-	//NewWall->Location.X = 2;
-	//NewWall->Location.Y = 0;
-	//SpawnActor(NewWall);
 }
 
 UWorld::~UWorld()
@@ -48,13 +36,12 @@ void UWorld::Tick()
 
 void UWorld::Render()
 {
-	//system("cls");
 	URenderer::GetInstance()->Clear();
 	for (auto Actor : Actors)
 	{
 		Actor->Render();
 	}
-	URenderer::GetInstance()->Flip();
+	URenderer::GetInstance()->Present();
 }
 
 void UWorld::Load(std::string filename)
@@ -103,10 +90,13 @@ void UWorld::Load(std::string filename)
 
 	MapFile.close();
 
-	std::sort(Actors.begin(), Actors.end(), [](const AActor* A, const AActor* B) { return(A->RenderOrder > B->RenderOrder); });
+//	std::sort(Actors.begin(), Actors.end(), AActor::Compare);
+	//std::sort(Actors.begin(), Actors.end(), 
+	//	ActorCompareByRenderOrder{});
+	std::sort(Actors.begin(), Actors.end(), [](const AActor* A, const AActor* B) {
+		return (A->RenderOrder) > (B->RenderOrder);
+	});
 
-
-	//sort
 
 	//구현
 	//map 파일 읽어서 만들기

@@ -1,22 +1,30 @@
 #pragma once
-#include<Windows.h>
-#include"Vector2D.h"
+#include <Windows.h>
+#include "Vector2D.h"
+#include "SDL3/SDL.h"
 
-//singleton 으로 만들기 
+class AActor;
+
 class URenderer
 {
-private:
-	
+protected:
 	URenderer();
 	virtual ~URenderer();
-	static URenderer* instance;
+	static URenderer* Instance;
+
 	HANDLE ScreenHandles[2];
-	int CurrentScreenindex;
+	int CurrentScreenIndex = 0;
 
 public:
 	static URenderer* GetInstance();
+
+	SDL_Renderer* Renderer;
+
 	void Clear();
-	void Render(const FVector2D& Location, char Shape);
-	void Flip();
+	//void Render(const FVector2D& Location, char Shape);
+	void Render(const AActor* RenderObject);
+	void Present();
+
+
 };
 

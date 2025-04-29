@@ -14,12 +14,12 @@ UInput::~UInput()
 
 void UInput::Tick()
 {
-	if (_kbhit())
-	{
-		KeyCode = _getch();
-	}
-	else
-	{
-		KeyCode = 0;
-	}
+	//if (_kbhit())
+	//{
+	//	KeyCode = _getch();
+	//}
+	//else
+	//{
+	//	KeyCode = 0;
+	//}
 }
