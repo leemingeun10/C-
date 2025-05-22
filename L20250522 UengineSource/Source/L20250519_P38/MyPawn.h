@@ -40,38 +40,47 @@ public:
 	
 	TObjectPtr<UBoxComponent> Box;
 
-	UPROPERTY(VisibleAnywhere, Category = "Components", BlueprintReadOnly);
+	UPROPERTY(VisibleAnywhere, Category = "Components", BlueprintReadOnly)
 	TObjectPtr < UStaticMeshComponent> Body;
 	// 언리얼은 모든게 포인터
-	UPROPERTY(VisibleAnywhere, Category = "Components", BlueprintReadOnly);
+	UPROPERTY(VisibleAnywhere, Category = "Components", BlueprintReadOnly)
 	TObjectPtr < UStaticMeshComponent> Right;
 
-	UPROPERTY(VisibleAnywhere, Category = "Components", BlueprintReadOnly);
+	UPROPERTY(VisibleAnywhere, Category = "Components", BlueprintReadOnly)
 	TObjectPtr < UStaticMeshComponent> Left;
 
-	UPROPERTY(VisibleAnywhere, Category = "Components", BlueprintReadOnly);
+	UPROPERTY(VisibleAnywhere, Category = "Components", BlueprintReadOnly)
 	TObjectPtr < USpringArmComponent> SpringArm;
 
-	UPROPERTY(VisibleAnywhere, Category = "Components", BlueprintReadOnly);
+	UPROPERTY(VisibleAnywhere, Category = "Components", BlueprintReadOnly)
 	TObjectPtr < UCameraComponent> Camera;
 
-	UPROPERTY(VisibleAnywhere, Category = "Components", BlueprintReadOnly);
+	UPROPERTY(VisibleAnywhere, Category = "Components", BlueprintReadOnly)
 	TObjectPtr < UArrowComponent> Arrow;
 
-	UPROPERTY(VisibleAnywhere, Category = "Components", BlueprintReadOnly);
+	UPROPERTY(VisibleAnywhere, Category = "Components", BlueprintReadOnly)
 	TObjectPtr < UFloatingPawnMovement> Movement;
 
-	UPROPERTY(VisibleAnywhere, Category = "Data", BlueprintReadWrite);
+	UPROPERTY(VisibleAnywhere, Category = "Data", BlueprintReadWrite)
 	float MoveSpeed;
 
-	UPROPERTY(VisibleAnywhere, Category = "Data", BlueprintReadWrite );
+	UPROPERTY(VisibleAnywhere, Category = "Data", BlueprintReadWrite )
 	float RotateSpeed;
 
 
-	UPROPERTY(VisibleAnywhere, Category = "Data", BlueprintReadWrite);
+	UPROPERTY(VisibleAnywhere, Category = "Data", BlueprintReadWrite)
 	float Boost;
 	
-	UPROPERTY(VisibleAnywhere, Category = "Data", BlueprintReadWrite);
+	UPROPERTY(VisibleAnywhere, Category = "Data", BlueprintReadWrite)
 	TArray<UStaticMeshComponent*> Array;
 
+	UFUNCTION()
+	void InputRoll(float Roll);
+
+	UFUNCTION()
+	void InputPitch(float Pitch);
+
+	UFUNCTION()
+	void InputFire();
+	
 };

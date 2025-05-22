@@ -76,7 +76,7 @@ AMyPawn::AMyPawn()
 
 	Boost = 0.5f;
 	RotateSpeed = 60.0f;
-	MoveSpeed = 10.0f;
+	MoveSpeed = 1000.0f;
 
 	Movement->MaxSpeed = MoveSpeed;
 
@@ -104,7 +104,7 @@ void AMyPawn::Tick(float DeltaTime)
 		}
 
 	}
-	AddMovementInput(GetActorForwardVector(), 1.0f, false);
+	AddMovementInput(GetActorForwardVector(), Boost, false);
 
 
 
@@ -114,6 +114,34 @@ void AMyPawn::Tick(float DeltaTime)
 void AMyPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	PlayerInputComponent->BindAxis("Pitch", this, &AMyPawn::InputPitch);
+	PlayerInputComponent->BindAxis("Roll", this, &AMyPawn::InputRoll);
+	PlayerInputComponent->BindAxis("Fire", this, &AMyPawn::InputFire);
+
+}
+
+void AMyPawn::InputRoll(float Roll)
+{
+	
+	if (FMath::IsNearlyZero(Roll)) return;
+
+	float DeltaTime = GetWorld()->GetDeltaSeconds();
+	float RollAmount = Roll * RotateSpeed * DeltaTime;
+	AddActorLocalRotation(FRotator(0.f, 0.f, RollAmount));
+}
+
+void AMyPawn::InputPitch(float Pitch)
+{
+	
+	if (FMath::IsNearlyZero(Pitch)) return;
+
+	float DeltaTime = GetWorld()->GetDeltaSeconds();
+	float PitchAmount = Pitch * RotateSpeed * DeltaTime;
+	AddActorLocalRotation(FRotator(PitchAmount, 0.f, 0.f));
+}
+
+void AMyPawn::InputFire()
+{
 
 }
 
