@@ -59,4 +59,7 @@ public:
 	void Look(const FInputActionValue& Value);
 
 	void Zoom(const FInputActionValue& Value);
+
+
+	float RotationSpeed = 10.0f;
 };

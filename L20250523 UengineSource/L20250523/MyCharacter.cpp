@@ -17,7 +17,9 @@ AMyCharacter::AMyCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	
+	bUseControllerRotationYaw = false; // 직접 회전 허용
+	//GetCharacterMovement()->bOrientRotationToMovement = false;
+
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
 
@@ -72,7 +74,7 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 		UEIC->BindAction(IA_Move, ETriggerEvent::Triggered, this, &AMyCharacter::Move);
 		UEIC->BindAction(IA_Jump, ETriggerEvent::Triggered, this, &AMyCharacter::Jump);
 		UEIC->BindAction(IA_Jump, ETriggerEvent::Canceled, this, &AMyCharacter::StopJumping);
-		UEIC->BindAction(IA_Look, ETriggerEvent::Completed, this, &AMyCharacter::Look);
+		UEIC->BindAction(IA_Look, ETriggerEvent::Triggered, this, &AMyCharacter::Look);
 		UEIC->BindAction(IA_Zoom, ETriggerEvent::Triggered, this, &AMyCharacter::Zoom);
 	}
 }
@@ -88,6 +90,10 @@ void AMyCharacter::Move(const FInputActionValue& Value)
 void AMyCharacter::Look(const FInputActionValue& Value)
 {
 	FVector2D LookVector = Value.Get<FVector2D>();
+
+	// 마우스 X 입력으로 캐릭터 자체 회전 (Yaw)
+	FRotator YawRotation(0.f, LookVector.X * RotationSpeed, 0.f); // RotationSpeed는 감도
+	AddActorLocalRotation(YawRotation);
 }
 
 
