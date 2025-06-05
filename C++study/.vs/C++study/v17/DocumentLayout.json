@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\C-\\C\u002B\u002Bstudy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{517A8BB7-96DE-4E8C-B785-2E59CDE881F6}|C\u002B\u002Bstudy.vcxproj|C:\\Users\\USER\\source\\C-\\C\u002B\u002Bstudy\\Programus_Stack3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{517A8BB7-96DE-4E8C-B785-2E59CDE881F6}|C\u002B\u002Bstudy.vcxproj|solutionrelative:Programus_Stack3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{517A8BB7-96DE-4E8C-B785-2E59CDE881F6}|C\u002B\u002Bstudy.vcxproj|C:\\Users\\USER\\source\\C-\\C\u002B\u002Bstudy\\Programus_Stack2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{517A8BB7-96DE-4E8C-B785-2E59CDE881F6}|C\u002B\u002Bstudy.vcxproj|solutionrelative:Programus_Stack2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{517A8BB7-96DE-4E8C-B785-2E59CDE881F6}|C\u002B\u002Bstudy.vcxproj|C:\\Users\\USER\\source\\C-\\C\u002B\u002Bstudy\\Programus_stack1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{517A8BB7-96DE-4E8C-B785-2E59CDE881F6}|C\u002B\u002Bstudy.vcxproj|solutionrelative:Programus_stack1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{517A8BB7-96DE-4E8C-B785-2E59CDE881F6}|C\u002B\u002Bstudy.vcxproj|C:\\Users\\USER\\source\\C-\\C\u002B\u002Bstudy\\Programus_Stack4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{517A8BB7-96DE-4E8C-B785-2E59CDE881F6}|C\u002B\u002Bstudy.vcxproj|solutionrelative:Programus_Stack4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Programus_Stack4.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\C\u002B\u002Bstudy\\Programus_Stack4.cpp",
+              "RelativeDocumentMoniker": "Programus_Stack4.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\C\u002B\u002Bstudy\\Programus_Stack4.cpp",
+              "RelativeToolTip": "Programus_Stack4.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-05T07:13:16.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Programus_Stack3.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\C\u002B\u002Bstudy\\Programus_Stack3.cpp",
+              "RelativeDocumentMoniker": "Programus_Stack3.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\C\u002B\u002Bstudy\\Programus_Stack3.cpp",
+              "RelativeToolTip": "Programus_Stack3.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-05T06:57:24.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Programus_Stack2.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\C\u002B\u002Bstudy\\Programus_Stack2.cpp",
+              "RelativeDocumentMoniker": "Programus_Stack2.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\C\u002B\u002Bstudy\\Programus_Stack2.cpp",
+              "RelativeToolTip": "Programus_Stack2.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-05T06:18:03.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Programus_stack1.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\C\u002B\u002Bstudy\\Programus_stack1.cpp",
+              "RelativeDocumentMoniker": "Programus_stack1.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\C\u002B\u002Bstudy\\Programus_stack1.cpp",
+              "RelativeToolTip": "Programus_stack1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-05T06:10:47.131Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
