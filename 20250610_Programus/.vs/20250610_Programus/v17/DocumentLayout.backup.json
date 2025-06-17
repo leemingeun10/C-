@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\source\\C-\\20250610_Programus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{629CD792-22E3-4331-B43D-2EFD5C6587C8}|20250610_Programus.vcxproj|C:\\Users\\USER\\source\\C-\\20250610_Programus\\ProgramusStackQue4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{629CD792-22E3-4331-B43D-2EFD5C6587C8}|20250610_Programus.vcxproj|solutionrelative:ProgramusStackQue4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProgramusStackQue4.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\20250610_Programus\\ProgramusStackQue4.cpp",
+              "RelativeDocumentMoniker": "ProgramusStackQue4.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\20250610_Programus\\ProgramusStackQue4.cpp",
+              "RelativeToolTip": "ProgramusStackQue4.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-10T08:20:51.459Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
