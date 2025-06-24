@@ -3,8 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\C-\\TCPecho\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E411A815-954F-4D36-B629-828EC3F7E0BB}|TCPecho.vcxproj|C:\\Users\\USER\\source\\C-\\TCPecho\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E411A815-954F-4D36-B629-828EC3F7E0BB}|TCPecho.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E411A815-954F-4D36-B629-828EC3F7E0BB}|TCPecho.vcxproj|C:\\Users\\USER\\source\\C-\\TCPecho\\client4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E411A815-954F-4D36-B629-828EC3F7E0BB}|TCPecho.vcxproj|solutionrelative:client4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E411A815-954F-4D36-B629-828EC3F7E0BB}|TCPecho.vcxproj|C:\\Users\\USER\\source\\C-\\TCPecho\\Client3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E411A815-954F-4D36-B629-828EC3F7E0BB}|TCPecho.vcxproj|solutionrelative:Client3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E411A815-954F-4D36-B629-828EC3F7E0BB}|TCPecho.vcxproj|C:\\Users\\USER\\source\\C-\\TCPecho\\Packet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E411A815-954F-4D36-B629-828EC3F7E0BB}|TCPecho.vcxproj|solutionrelative:Packet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Downloads\\client (2).cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E411A815-954F-4D36-B629-828EC3F7E0BB}|TCPecho.vcxproj|C:\\Users\\USER\\source\\C-\\TCPecho\\Client2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E411A815-954F-4D36-B629-828EC3F7E0BB}|TCPecho.vcxproj|solutionrelative:Client2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E411A815-954F-4D36-B629-828EC3F7E0BB}|TCPecho.vcxproj|C:\\Users\\USER\\source\\C-\\TCPecho\\Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E411A815-954F-4D36-B629-828EC3F7E0BB}|TCPecho.vcxproj|solutionrelative:Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +33,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Packet.h",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\TCPecho\\Packet.h",
+              "RelativeDocumentMoniker": "Packet.h",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\TCPecho\\Packet.h",
+              "RelativeToolTip": "Packet.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-24T04:39:41.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "client (2).cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Downloads\\client (2).cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\client (2).cpp",
+              "ToolTip": "C:\\Users\\USER\\Downloads\\client (2).cpp",
+              "RelativeToolTip": "..\\..\\..\\Downloads\\client (2).cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-24T04:36:43.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\TCPecho\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\USER\\source\\C-\\TCPecho\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAACUAAABgAAAAAAAAAA==",
+              "Title": "client4.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\TCPecho\\client4.cpp",
+              "RelativeDocumentMoniker": "client4.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\TCPecho\\client4.cpp",
+              "RelativeToolTip": "client4.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-24T01:08:22.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Client3.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\TCPecho\\Client3.cpp",
+              "RelativeDocumentMoniker": "Client3.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\TCPecho\\Client3.cpp",
+              "RelativeToolTip": "Client3.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwDYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-23T06:19:47.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Client2.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\TCPecho\\Client2.cpp",
+              "RelativeDocumentMoniker": "Client2.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\TCPecho\\Client2.cpp",
+              "RelativeToolTip": "Client2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-23T04:29:52.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Client.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\TCPecho\\Client.cpp",
+              "RelativeDocumentMoniker": "Client.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\TCPecho\\Client.cpp",
+              "RelativeToolTip": "Client.cpp",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAiwFMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-17T02:27:44.466Z",
               "EditorCaption": ""

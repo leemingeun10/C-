@@ -1,3 +1,5 @@
-﻿  main.cpp
-C:\Users\USER\source\C-\ServerNetworking\main.cpp(61,34): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+﻿  Packet.h
+  Server3.cpp
+  Server4.cpp
+  Generating Code...
   ServerNetworking.vcxproj -> C:\Users\USER\source\C-\ServerNetworking\x64\Debug\TCPEchoServer.exe

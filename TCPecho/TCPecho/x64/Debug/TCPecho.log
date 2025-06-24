@@ -1,3 +1,4 @@
-﻿  main.cpp
-C:\Users\USER\source\C-\TCPecho\main.cpp(68,36): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+﻿  Client3.cpp
+  client4.cpp
+  Generating Code...
   TCPecho.vcxproj -> C:\Users\USER\source\C-\TCPecho\x64\Debug\TCPecho.exe

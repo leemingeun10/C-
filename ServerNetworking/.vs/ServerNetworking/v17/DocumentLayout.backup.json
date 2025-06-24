@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\C-\\ServerNetworking\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E884540-8FE0-46A0-A67A-5B95802692B7}|ServerNetworking.vcxproj|C:\\Users\\USER\\source\\C-\\ServerNetworking\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6E884540-8FE0-46A0-A67A-5B95802692B7}|ServerNetworking.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6E884540-8FE0-46A0-A67A-5B95802692B7}|ServerNetworking.vcxproj|C:\\Users\\USER\\source\\C-\\ServerNetworking\\Server4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E884540-8FE0-46A0-A67A-5B95802692B7}|ServerNetworking.vcxproj|solutionrelative:Server4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E884540-8FE0-46A0-A67A-5B95802692B7}|ServerNetworking.vcxproj|C:\\Users\\USER\\source\\C-\\ServerNetworking\\Server3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E884540-8FE0-46A0-A67A-5B95802692B7}|ServerNetworking.vcxproj|solutionrelative:Server3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E884540-8FE0-46A0-A67A-5B95802692B7}|ServerNetworking.vcxproj|C:\\Users\\USER\\source\\C-\\ServerNetworking\\Server2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E884540-8FE0-46A0-A67A-5B95802692B7}|ServerNetworking.vcxproj|solutionrelative:Server2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E884540-8FE0-46A0-A67A-5B95802692B7}|ServerNetworking.vcxproj|C:\\Users\\USER\\source\\C-\\ServerNetworking\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E884540-8FE0-46A0-A67A-5B95802692B7}|ServerNetworking.vcxproj|solutionrelative:Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\ServerNetworking\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\USER\\source\\C-\\ServerNetworking\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAB8AAAB5AAAAAAAAAA==",
+              "Title": "Server4.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\ServerNetworking\\Server4.cpp",
+              "RelativeDocumentMoniker": "Server4.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\ServerNetworking\\Server4.cpp",
+              "RelativeToolTip": "Server4.cpp",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAIwJcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-24T04:37:42.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Server3.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\ServerNetworking\\Server3.cpp",
+              "RelativeDocumentMoniker": "Server3.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\ServerNetworking\\Server3.cpp",
+              "RelativeToolTip": "Server3.cpp",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAIwFAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-23T06:19:14.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Server2.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\ServerNetworking\\Server2.cpp",
+              "RelativeDocumentMoniker": "Server2.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\ServerNetworking\\Server2.cpp",
+              "RelativeToolTip": "Server2.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwDYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-23T04:48:55.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Server.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\C-\\ServerNetworking\\Server.cpp",
+              "RelativeDocumentMoniker": "Server.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\C-\\ServerNetworking\\Server.cpp",
+              "RelativeToolTip": "Server.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAF4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-17T01:36:49.068Z",
               "EditorCaption": ""
