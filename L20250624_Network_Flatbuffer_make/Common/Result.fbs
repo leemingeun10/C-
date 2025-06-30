@@ -1,0 +1,8 @@
+namespace Calculate;
+
+table Result {
+	result_number1:int;
+	result_number2:int;
+}
+
+root_type Result;

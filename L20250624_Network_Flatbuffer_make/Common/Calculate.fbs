@@ -1,0 +1,8 @@
+namespace Calculate;
+
+
+table Data {
+	input : uint8;
+}
+
+root_type Data;
